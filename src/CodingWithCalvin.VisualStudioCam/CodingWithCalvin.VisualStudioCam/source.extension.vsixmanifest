@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+    xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+    xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="74911745-c042-43f6-a89c-32b0b43287d8" Version="1.0" Language="en-US" Publisher="Calvin A. Allen" />
+        <DisplayName>Visual Studio Cam</DisplayName>
+        <Description xml:space="preserve">This extension allows you to embed your webcam into a tool window within Visual Studio. Useful if you like to live stream and want a completely integrated environment!</Description>
+    </Metadata>
+    <Installation AllUsers="true">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\SharpDX.Direct3D9.dll" AssemblyName="SharpDX.Direct3D9, Version=2.5.0.0, Culture=neutral, PublicKeyToken=627a3d6d1956f55a" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\SharpDX.dll" AssemblyName="SharpDX, Version=2.5.0.0, Culture=neutral, PublicKeyToken=627a3d6d1956f55a" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\Telerik.Windows.Controls.dll" AssemblyName="Telerik.Windows.Controls, Version=2023.1.315.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\Telerik.Windows.Controls.Media.dll" AssemblyName="Telerik.Windows.Controls.Media, Version=2023.1.315.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\Telerik.Windows.MediaFoundation.dll" AssemblyName="Telerik.Windows.MediaFoundation, Version=2023.1.315.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Assemblies\MediaFoundation.dll" AssemblyName="MediaFoundation, Version=3.1.0.32450, Culture=neutral, PublicKeyToken=36fa660e1d6ebf8d" />
+    </Assets>
+</PackageManifest>
