@@ -12,8 +12,7 @@ A Visual Studio extension that embeds the Telerik Radcam control into a Visual S
 
 ## Marketplace Status
 
-[![Marketplace Installations](https://img.shields.io/visual-studio-marketplace/i/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)](https://img.shields.io/visual-studio-marketplace/i/codingwithcalvin.VS-WebcamStudio?style=for-the-badge) [![Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)](https://img.shields.io/visual-studio-marketplace/d/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)
-[![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)](https://img.shields.io/visual-studio-marketplace/v/codingwithcalvin.VS-WebcamStudio?style=for-the-badge) [![Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)](https://img.shields.io/visual-studio-marketplace/r/codingwithcalvin.VS-WebcamStudio?style=for-the-badge)
+> Unable to show Marketplace status badges as the Visual Studio Marketplace won't accept this extension.
 
 ## Contribute
 
