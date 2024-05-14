@@ -13,6 +13,6 @@ namespace CodingWithCalvin.WebcamStudio
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Coding With Calvin";
-        public const string Tags = "webcam,cam,livestream";
+        public const string Tags = "webcam,camera,livestream";
     }
 }

@@ -9,7 +9,8 @@
 		<MoreInfo>https://github.com/CodingWithCalvin/VS-WebcamStudio</MoreInfo>
 		<License>resources\LICENSE</License>
 		<Icon>resources\icon.png</Icon>
-		<Tags>webcam,cam,livestream</Tags>
+		<PreviewImage>resources\icon.png</PreviewImage>
+		<Tags>webcam,camera,livestream</Tags>
 		<Preview>true</Preview>
 	</Metadata>
 	<Installation>
